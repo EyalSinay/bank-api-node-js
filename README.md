@@ -53,7 +53,7 @@ BASE_URL + '/remove-user-from-account'
     - userId*
     - accountId*
 ## DELETE METHODS:
-## To delete user
+## To delete specific user by ID:
 BASE_URL + 'users/' + :userId
-## To account
+## To delete specific account by ID:
 BASE_URL + 'accounts/' + :accountId
