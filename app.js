@@ -35,12 +35,12 @@ app.get('/accounts/:accountId', sendAccount);
 
 // ------------POST------------
 app.post('/users', addNewUserAndSendAllUsers);
-app.post('/account', addNewAccountAndSendAllAccount);
+app.post('/accounts', addNewAccountAndSendAllAccount);
 
 // ------------PUT------------
-app.put('/account/deposit-withdraw',depositOrWithdrawCashForAccountAndSendAccount);
-app.put('/account/transfer-cash',transferCashAndSendTwoAccounts);
-app.put('/account/credit',updateCreditForAccountAndSendAccount);
+app.put('/accounts/deposit-withdraw',depositOrWithdrawCashForAccountAndSendAccount);
+app.put('/accounts/transfer-cash',transferCashAndSendTwoAccounts);
+app.put('/accounts/credit',updateCreditForAccountAndSendAccount);
 app.put('/add-user-to-account',addUserToAccountAndSendMsg);
 app.put('/remove-user-from-account',removeUserToAccountAndSendMsg);
 
