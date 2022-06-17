@@ -5,11 +5,11 @@ BASE_URL = 'https://bank-api-appleseeds.herokuapp.com/'
 ## GET METHODS:
 ### To get all users:
 BASE_URL + 'users'
-### To get specific user by ID:
+### To get a specific user by ID:
 BASE_URL + 'users/' + :userId
 ### To get all accounts:
 BASE_URL + 'accounts'
-### To get specific account by ID:
+### To get a specific account by ID:
 BASE_URL + 'accounts/' + :accountId
 ## POST METHODS:
 ### To add a new user:
@@ -53,7 +53,7 @@ BASE_URL + '/remove-user-from-account'
     - userId*
     - accountId*
 ## DELETE METHODS:
-## To delete specific user by ID:
+# To delete a specific user by ID:
 BASE_URL + 'users/' + :userId
-## To delete specific account by ID:
+# To delete a specific account by ID:
 BASE_URL + 'accounts/' + :accountId
