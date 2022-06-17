@@ -18,7 +18,7 @@ const {
 } = require('./src/controllers.js');
 
 const app = express();
-const PORT = process.env.CORS || 3001;
+const PORT = process.env.PORT || 3001;
 
 // Middleware:
 app.use(express.json());
